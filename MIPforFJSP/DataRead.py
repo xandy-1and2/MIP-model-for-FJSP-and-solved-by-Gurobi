@@ -53,7 +53,7 @@ def getdata(filename='./FJSSPinstances/0_BehnkeGeiger/Behnke1.fjs'):
     f.close()  # close the file
         # jobs[i]=operations
 
-# print(operations_machines)
+    # print(operations_machines)
     # print(operations_times)
     # print(numonJobs)
     J=list(range(1,n+1)) #define the index of jobs
@@ -84,30 +84,3 @@ def getdata(filename='./FJSSPinstances/0_BehnkeGeiger/Behnke1.fjs'):
         'largeM':largeM,
     }
     return Data
-data=getdata('./FJSSPinstances/1_Brandimarte/BrandimarteMk6.fjs')
-#print(data)
-    # print(largeM)
-
-    # print(operations_times)
-
-
-
-
-    # data=[]
-    # for line in open(filename,"r"):
-    #     line_data=line.split()
-    #     numbers_float=map(float,line_data)
-    #     print(line_data)
-    #     print(type(line_data))
-    #     data.append(line)
-    # print(data)
-    # with open(filename,'r') as f:
-    #     my_data=f.readline()
-    #     line_data=my_data.split()
-    #     numbers_float = list(map(float, line_data))
-    #     print(line_data)
-    #     print(numbers_float)
-        # for line in my_data:
-        #     line_data=line.split()
-        #     numbers_float=map(float,line_data)
-        # print(numbers_float)
